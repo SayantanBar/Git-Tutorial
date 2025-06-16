@@ -37,6 +37,7 @@
 18. `git remote rename <old name><new name>` : This command renames the remote connection.
 
 Note : The name of the remote conncetion is always used to establish communication between repos.
+merge conflicts are very common scenario.
 
 19 : `git add .` -> to add all files to staging area.
 
