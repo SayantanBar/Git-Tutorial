@@ -23,3 +23,17 @@
 12. Diff between git rm and git restore :
 
 - Ans : If you want to move the whole file back to the untrack state, then we do `git rm`. Otherwise if we want the changes to be moved in working area or staging area then we do `git restore`
+
+13. `git diff commit1 commit2` -> Gives the difference between all file changes between two commit.
+
+14. `git remote` -> List down all the remote connection names.
+
+15. Remote connection -> It helps you to link two git repositories for uploading and downloading changes from each otherwise
+
+16. `git remote add <name of the origin> <link of the remote>` -> This command helps us to add a new link to the remote repo and give a new name to it.
+
+17. `git remote rm <name of the remote>` -> This command deletes a remote conncection.
+
+18. `git remote rename <old name><new name>` : This command renames the remote connection.
+
+Note : The name of the remote conncetion is always used to establish communication between repos.
