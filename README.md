@@ -37,4 +37,7 @@
 18. `git remote rename <old name><new name>` : This command renames the remote connection.
 
 Note : The name of the remote conncetion is always used to establish communication between repos.
+
 19 : `git add .` -> to add all files to staging area.
+
+20 : `git pull <remote name> <branch name>` -> Download latest change from the branch of the mention remote in your local repo.
