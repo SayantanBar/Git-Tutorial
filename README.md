@@ -41,3 +41,13 @@ Note : The name of the remote conncetion is always used to establish communicati
 19 : `git add .` -> to add all files to staging area.
 
 20 : `git pull <remote name> <branch name>` -> Download latest change from the branch of the mention remote in your local repo.
+
+### Recomended practice to do
+
+- make changes
+- git add file
+- git commit
+- git pull
+- git push
+
+**before you pull some code you should have no local change, means all must be in commit or in a stash. if they are staging area too, the git pull would not work**
